@@ -33,9 +33,19 @@ Shows the user list with sync status chips (**Pending**, **Synced**, **Failed**)
 
 ### Demo video
 
-[▶ Watch demo video (`media/video.mp4`)](media/video.mp4)
+Play inline below (requires `media/video.mp4` in the repo). Demonstrates offline create/update and auto-sync when network is restored.
 
-The video demonstrates offline create/update and auto-sync when network is restored.
+<video controls width="720" poster="media/image.png" playsinline>
+  <source src="media/video.mp4" type="video/mp4">
+  <source src="https://github.com/ghanashyambehera/flutter_offline_data/raw/master/media/video.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+  <a href="media/video.mp4">Download demo video (MP4)</a>
+</video>
+
+| | |
+|---|---|
+| **Play in browser** | Use the player above |
+| **Download** | [`media/video.mp4`](media/video.mp4) · [GitHub raw](https://github.com/ghanashyambehera/flutter_offline_data/raw/master/media/video.mp4) |
 
 | File | Description |
 |------|-------------|
