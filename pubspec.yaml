@@ -1,0 +1,28 @@
+name: flutter_offline_data
+description: Offline-first Flutter app with sqflite sync queue and Dio auto-sync.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  dio: ^5.9.0
+  connectivity_plus: ^6.1.4
+  uuid: ^4.5.1
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.3.5
+
+flutter:
+  uses-material-design: true
